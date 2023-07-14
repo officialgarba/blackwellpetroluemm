@@ -386,6 +386,14 @@ td {
   margin-block-end: 16px;
 }
 
+#talaku {
+  font-size: 2rem;
+
+  color: rgb(19, 66, 107);
+  font-weight: var(--fw-700);
+  margin-block-end: 16px;
+}
+
 .grid-list {
   display: grid;
   gap: 30px;
@@ -962,7 +970,7 @@ input[type="submit"] {
 }
 
 .container1 .card1 .icon img {
-  width: 80%;
+  width: 100%;
   border-radius: 8px;
   margin-bottom: 10px;
 }
@@ -1766,7 +1774,11 @@ input:focus {
   /**
    * PROJECTS
    */
-
+   /* .container .card1 .icon img {
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  } */
   .project-card .card-content {
     padding: 40px;
   }
@@ -2096,3 +2108,4 @@ input:focus {
     grid-template-columns: 1fr 1fr;
   }
 }
+
